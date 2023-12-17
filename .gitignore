@@ -1,0 +1,13 @@
+artifacts
+cache
+node_modules
+contracts/hardhat-dependency-compiler
+coverage
+coverage.json
+build
+typechain
+typechain-types
+.coverage_contracts
+.coverage_artifacts
+.idea
+.env
