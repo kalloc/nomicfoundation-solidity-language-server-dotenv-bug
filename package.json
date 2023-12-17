@@ -20,16 +20,6 @@
         "typescript": "5.1.6"
     },
     "scripts": {
-        "clean": "rimraf artifacts cache coverage coverage.json contracts/hardhat-dependency-compiler",
-        "coverage": "hardhat coverage",
-        "deploy": "hardhat deploy --network",
-        "docify": "npx solidity-utils-docify",
-        "lint": "yarn run lint:ts && yarn run lint:sol",
-        "lint:fix": "yarn run lint:ts:fix && yarn run lint:sol:fix",
-        "lint:sol": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
-        "lint:sol:fix": "solhint --max-warnings 0 \"contracts/**/*.sol\" --fix",
-        "test": "hardhat test --parallel",
-        "test:ci": "hardhat test",
-        "scripts:demo-open": "hardhat run scripts/demo-open.ts --network"
+        "compile": "hardhat compile"
     }
 }
